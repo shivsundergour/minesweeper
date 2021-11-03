@@ -1,0 +1,62 @@
+#button_1
+{
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  background-color: rgb(200,202,210);
+  border-bottom: 2px solid #000000;
+  border-right: 2px solid #000000;
+  outline: none;
+}
+
+#button_1:hover
+{
+  background-color: rgb(154, 158, 172);
+  cursor: pointer;
+}
+
+#button_2
+{
+  width: 60px;
+  height: 60px;
+}
+
+#button_2:hover
+{
+  cursor: pointer;
+}
+
+#header
+{
+  postion: relative;
+  margin: 0px;
+  font-size: 35px;
+  font-family: serif;
+  text-align: center;
+}
+
+#saper
+{
+  margin-top: -10px;
+}
+
+img.icon
+{
+  width: 35px;
+  height: 35px;
+}
+
+body
+{
+  background-color: #C3C3C3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+canvas
+{
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}

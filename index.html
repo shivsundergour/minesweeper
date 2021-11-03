@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" type="image/jpg" href="./resources/favicon.ico"/>
+    <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
+    <script src="./libraries/p5.js"></script>
+    <script src="./libraries/p5.dom.js"></script>
+    <script src="./libraries/p5.sound.js"></script>
+    <script src="./sketch.js"></script>
+    <link rel="stylesheet" type="text/css" href="./style1.css">
+  </head>
+
+  <body>
+    <div id="header"><p>Minesweeper </p></div>
+    <div id="saper"></div>
+
+<!-- Prevents from contextmenu at right click -->
+    <script>
+      document.addEventListener('contextmenu',function(event){
+      event.preventDefault();
+      })
+    </script>
+  </body>
+</html>
